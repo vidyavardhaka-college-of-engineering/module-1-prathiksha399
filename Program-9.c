@@ -4,7 +4,7 @@
 
 int main()
 {
-    float x1,x2,y1,y2,slope,midpoint,midX,midY; // correct the code
+    float x1,y1,x2,y2,slope,midpoint,midX,midY; // correct the code
     printf(" Enter the X Coordinate and Y coordinate of Endpoint 1 and Endpoint 2: ");
     scanf("%f%f%f%f",&x1,&y1,&x2,&y2);   // correct the code
     printf("the endpoints of a line are : (%.2f,%.2f) and (%.2f,%.2f)",x1,y1,x2,y2);
@@ -12,6 +12,6 @@ int main()
     midX=(x1+x2)/2;
     midY=(y1+y2)/2;
     printf("Slope : %.2f ",slope);
-    printf("Midpoint : (%.,%.)",midX,midY);  // correct the code to print the output with numbers after the decimal point
+    printf("Midpoint : (%.2f,%.2f)",midX,midY);  // correct the code to print the output with numbers after the decimal point
     return 0;
 }
